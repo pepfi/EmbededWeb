@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>tempo example</title>
+    <script src="style/js/tempo.js"></script>
+    <script src="style/json/data.json"></script>
+</head>
+<body>
+    <ul id="users" data-template >
+        <li style="border:none;list-style:none">
+            <a href="moviePlay.html?film={{film}}"><img src='resource/movie/{{image}}'></a>
+        </li>
+        <li style='list-style:none'>
+            {{name}} {{time}}
+        </li>
+        <li data-template-fallback>Meh... we don't have no users today.</li>
+    </ul>
+ <script>
+
+        Tempo.prepare("users").render(data.movie);
+</script>
+</body>
+</html>

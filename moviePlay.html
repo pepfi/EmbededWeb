@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+    <script type="text/javascript">
+        function GetQueryString(name)//获取url参数
+        {
+             var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+             var r = window.location.search.substr(1).match(reg);
+             if(r!=null)return  unescape(r[2]); return null;
+        }
+    </script>
+</head>
+<body>
+<div style="width:96%; height:auto; margin:0 auto; margin-bottom:20px; margin-top:30px;" class="shanghu" data-template>
+    <script type="text/javascript">
+        var film = GetQueryString('film');
+        document.write("<video src='resource/movie/" + film + "' autoplay controls style='width:100%;'>");
+    </script>
+<!--	<video src="resource/movie/" autoplay controls style="width:100%;"></video>-->
+</div>
+</body>
+</html>
