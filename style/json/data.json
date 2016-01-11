@@ -1,0 +1,7 @@
+﻿var data = {
+    "movie": [
+        { 'name': '撒娇女人最好命', 'time': '1小时34分', 'image': '撒娇女人最好命.jpg', 'film': 'sajiaonvrenzuihaoming.mp4' },
+        { 'name': '白发魔女传', 'time': '1小时20分', 'image': '白发魔女传.jpg', 'film': 'baifamonvzhuan.mp4' },
+        { 'name': '大话天仙', 'time': '1小时10分', 'image': '大话天仙.jpg', 'film': 'dahuatianxian.mp4' }
+   ]
+}
