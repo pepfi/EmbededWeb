@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>
+        Embeded Web Server
+        </title>
+
+        <meta content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /> 
+         <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+        <meta name="format-detection" content="telephone=no" />
+        <link href="./style/css/main.css" rel="stylesheet" type="text/css" />
+        <script src="./style/js/jquery.js"></script>
+        <script src="./style/js/jquery-1.11.0.js"></script>
+        <script type="text/javascript">
+            var i = 0;
+            setInterval(function(){
+                i++;
+                if(i>3){
+                    i=0;
+                }
+                $('#m-banner ul li').hide().eq(i).fadeIn(100);
+
+            },2000);
+        </script>
+        
+        </head>
+    <body>
+        <div class="web-hd">
+
+        <div class="web-logo-wrap" style="float:left">
+            <a href="index.html" class="web-logo"></a>
+        </div>
+        <div style="float:right" id="newtop"><a href="javascript:auth()">傲天动联</a></div>
+        <div style="clear:both"></div>
+        <div style="clear:both" id="notice_div">
+	        <div class="close" onClick="closeTips();"></div>
+	        <div class="ltext" id="authmsg">欢迎您，您已成功连接。可以免流量访问本网站的内容和服务！
+	        </div>
+        </div>
+	        <ul class="web-nav">
+	        	<li class="active"><a href="index.html">推荐</a></li>
+	            <li><a href="movie.html">电影</a></li>
+	            <li><a href="game.html">游戏</a></li>
+	            <li><a href="app.html">应用</a></li>
+
+	        </ul>
+	    </div>

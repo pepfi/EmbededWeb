@@ -1,0 +1,176 @@
+*,body,div,img,ul,li,a,h2,address{ margin:0px; padding:0px; font-size:14px; font-family: "宋体","黑体"; list-style:none;}
+
+/*首页css样式*/
+/*整个页面样式*/
+ .web-hd{
+ 	background-color:#2D77E1;
+ 	width:100%; border-left:#000 solid 1px; border-right:#000 solid 1px; margin:0px auto;
+        }
+        /*首页顶部样式*/
+        #newtop{margin-right:10px; margin-top: 10px;}
+        #newtop a{width:auto;padding:3px;text-align:center;font-weight:bold;font-size:14px;color:#FFF;line-height:50px;vertical-align: middle; text-indent:0px;border:1px solid;}
+        #newtop a:hover{color:#F90;border:1px solid #F90;}
+
+        /*首页隐藏样式*/
+        #notice_div{display:none;margin:0 0px;width:auto; line-height:24px;height:24px;background:#FFFFEF; color:#565550; text-align:left;font-size:14px;position:relative;}
+        #notice_div .ltext{margin:0 20px 0 4px;width:auto; text-indent:18px;text-align:center;}
+        #notice_div .close{position:absolute; z-index:1001; right:4px; top:3px; width:18px; height:16px; background:url(../images/close.png) 5px 2px no-repeat; cursor:pointer;color:#FFF;line-height:16px;text-align: center;font-size: 22px;font-weight:bold; border-radius:0px;}
+        
+        /*网站logo样式*/
+        .web-hd .web-logo-wrap{
+        	background-color: #2D77E1;
+        }
+        .web-hd .web-logo-wrap .web-logo{
+        	display: block;
+        	width: 97px;
+        	height: 50px;
+        	background: url(../images/logo.jpg) no-repeat; width: 110px; height:60px; 
+        	background-size: 97px;
+        }
+
+        .web-nav{
+        	height: 50px;
+        	background-color: #4591FF;
+
+        }
+        .web-nav{ width:100%; border-left:#000 solid 1px; border-right:#000 solid 1px; margin:0px auto;}
+
+        .web-nav ul{
+        	margin:0 auto;
+        	width: 100%;
+        	}
+
+        .web-nav li{
+        	float:left;
+        	width: 25%;
+        }
+
+        .web-nav li a{
+        	display: block;
+        	line-height: 50px;
+        	color: #fff;
+        	font-size: 16px;
+        	text-align: center;
+        }
+
+        
+        .web-nav li.active a{
+        	background-color: #3583F4；
+        }
+        
+        /*轮播图样式*/
+        .wrap{
+        	margin-top: 10px;
+        }
+         
+
+        /*推荐精品样式*/
+        .b-title{padding-top:20px;
+           
+        }
+        .b-title h2{font-size:16px;
+        	color:#000;
+        	line-height:30px;
+        	font-weight:normal;
+        	padding-left:15px;
+        	
+        }
+        .b-title h2 a{ margin-left:1450px;}
+        .b-title .separated{
+        	padding-left:15px;
+        	height:1px;
+        	overflow:hidden;
+        	background-color:#d9d9d9
+        	}
+        .b-title .separated .dividing-wrap{
+        	width:65px;
+        }
+
+        /*推荐列表样式*/
+        .app-list .item{position:relative;padding-top:15px;color:#aaa}.app-list .item .logo{position:absolute;left:15px;top:20px}.app-list .item .logo img{width:50px;height:50px}.app-list .item .link{height:100%;width:100%;position:absolute;top:0;left:-110px}.app-list .item .link a{display:block;height:100%;width:100%}.app-list .item .title{padding-left:80px;margin-top:6px;padding-bottom:3px;font-size:16px;line-height:16px;color:#000;padding-right:100px;overflow:hidden;text-overflow:ellipsis;word-break:normal;white-space:nowrap}.app-list .item .star{padding:0 0 0 80px}.app-list .item .download-size{padding:0 0 0 80px;line-height:14px;font-size:12px}.app-list .item .download-size span,.app-list .item .download-size i{padding:0 3px 0 0}.app-list .item .download-size .separate{font-size:14px;display:inline-block;height:12px;overflow:hidden}.app-list .item .discription{margin-top:12px;padding:6px 15px;line-height:20px;color:#999;background-color:#f9f9f9;border-bottom:1px solid #d7d7d7}.app-list .item .download{position:absolute;right:15px;top:20px}
+
+        /*下载按钮样式*/
+
+        .download-btn{display:block;width:75px;height:32px;border:1px solid #5fb304;background-color:#63c400;color:#fff;font-size:16px;text-align:center;line-height:32px}.download-btn:active{border:1px solid #73c61e;background-color:#96e347}.download-btn.processing{border:1px solid #bababa;background-color:#cfcfcf}
+
+        /*底部样式*/
+
+        #zzz{  text-align:center;width:100%;margin: 30px 0 0 10px;}
+		#zzz ul{overflow:hidden; margin:0px auto;display: inline-block;}
+		#zzz ul li{ float:left; padding:0 5px; margin-top: 100px;}
+
+	   .zjhn-footer{
+        height: 60px;
+        text-align: center;
+        
+        }
+        .zjhn-footer .copyright{
+        text-align: center;
+        padding: 0;
+        line-height: 60px;
+        color: #52A6E9;
+        }
+      
+
+     /*点击帮助页面样式*/
+        .ready {
+                line-height: 20px;
+                text-align: center;
+        }
+        
+        .ready h3{
+             font-size: 20px;
+             color: red;
+             text-indent:2em;
+             margin-top: 100px;
+             font-weight: bold;
+
+       }
+
+        .ready h2{
+            font-size: 18px;
+            color: blue;
+            text-indent:4em;
+            line-height: 20px;
+            font-weight: bold;
+
+       }
+        
+        .ready ol li{
+                font-size: 16px;
+                text-indent: 5em;
+                font-weight: bold;
+        }
+
+        /*联系我们页面样式*/
+        .lianxi {
+                text-align: center;
+                line-height: 20px;
+        }
+        .lianxi h3{
+                font-size: 20px;
+                color: red;
+                margin-top: 140px;
+        }
+        .lianxi p{
+                padding-top: 10px;
+        }
+
+        /*电影页面样式*/
+        .movie ul li{
+            float: left;
+
+        }
+
+        .clear{clear: both; }
+
+        .movie ul li img{
+            width: 250px;
+            height: 400px;
+            padding: 5px;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+      
+        

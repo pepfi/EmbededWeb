@@ -1,7 +1,7 @@
 ﻿var data = {
     "movie": [
-        { 'name': '撒娇女人最好命', 'time': '1小时34分', 'image': '撒娇女人最好命.jpg', 'film': 'sajiaonvrenzuihaoming.mp4' },
-        { 'name': '白发魔女传', 'time': '1小时20分', 'image': '白发魔女传.jpg', 'film': 'baifamonvzhuan.mp4' },
-        { 'name': '大话天仙', 'time': '1小时10分', 'image': '大话天仙.jpg', 'film': 'dahuatianxian.mp4' }
+        { 'name': '黄飞鸿之英雄有梦', 'time': '1小时34分', 'image': '黄飞鸿之英雄有梦.jpg', 'filmNo': '1' },
+        { 'name': '心花路放', 'time': '1小时20分', 'image': '心花路放.jpg', 'filmNo': '2' },
+        { 'name': '一场风花雪月的事', 'time': '1小时10分', 'image': '一场风花雪月的事.jpg', 'filmNo': '3' }
    ]
 }
